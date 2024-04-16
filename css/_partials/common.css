@@ -1,0 +1,10 @@
+
+
+header{
+    background-color: var(--primary-color);
+}
+
+main section:nth-child(odd){
+    background-color: var(--secondary-color);
+    color:white;
+}

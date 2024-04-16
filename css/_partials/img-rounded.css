@@ -1,0 +1,15 @@
+.gr-img-component{
+}
+
+.gr-img-component .gr-rounded-border, .gr-img-component.gr-rounded-border{
+    --gr-border-radius:15px;
+    border-radius: var(--gr-border-radius);
+    overflow: hidden;
+}
+
+
+
+.gr-img-component img{
+    max-width: 100%;
+    height: auto;
+}
