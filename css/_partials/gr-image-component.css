@@ -1,4 +1,6 @@
 .gr-img-component{
+    display: flex;
+    align-items: center;
 }
 
 .gr-img-component .gr-rounded-border, .gr-img-component.gr-rounded-border{
@@ -10,6 +12,12 @@
 
 
 .gr-img-component img{
-    max-width: 100%;
+    width: 100%;
     height: auto;
+    margin:0 auto;
+}
+
+.gr-img-component .set-width{
+    --gr-img-max-width:none;
+    max-width: var(--gr-img-max-width);
 }

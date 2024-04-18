@@ -1,3 +1,4 @@
 @import url(./_partials/common.css);
 @import url(./_partials/variables.css);
-@import url(./_partials/img-rounded.css);
+@import url(./_partials/gr-image-component.css);
+@import url(./_partials/gr-star-component.css);
